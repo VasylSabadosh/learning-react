@@ -6,6 +6,7 @@ class Button extends Component {
     state = {
         visibility: true,
     }
+
     render() {
         return (
             <div className='button'>

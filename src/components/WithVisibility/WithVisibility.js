@@ -3,6 +3,12 @@ import "./WithVisibility.css"
 
 class WithVisibility extends Component {
 
+    componentWillMount() {
+        alert ("Paragraph did mount");
+    };
+    componentWillUnmount() {
+        alert ("paragraph will unmount");
+    };
     render() {
         return (
             <div  className='visibleDiv'>
